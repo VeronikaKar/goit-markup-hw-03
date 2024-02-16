@@ -50,6 +50,7 @@ img {
   overflow: hidden;
 }
 .container {
+  display: flex;
   width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
@@ -107,13 +108,13 @@ img {
   display: flex;
   gap: 40px;
   margin-right: auto;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 .nav-item {
   display: flex;
   gap: 40px;
   align-items: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .header-link {
   display: flex;
@@ -138,6 +139,8 @@ img {
   display: flex;
   gap: 40px;
   align-items: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .address-link {
