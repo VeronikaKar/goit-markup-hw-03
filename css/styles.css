@@ -60,9 +60,6 @@ img {
 }
 /* ==============Header=============*/
 .page-header {
-  margin-right: auto;
-  margin-left: auto;
-  display: flex;
   border-bottom: 1px solid #e7e9fc;
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
@@ -116,11 +113,8 @@ img {
   display: flex;
   gap: 40px;
   align-items: center;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 .header-link {
-  display: flex;
   font-family: "Roboto";
   font-weight: 500;
   font-size: 16px;
@@ -143,10 +137,10 @@ img {
   display: flex;
   gap: 40px;
   align-items: center;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
-
+.address-list-item {
+  display: flex;
+}
 .address-link {
   font-style: normal;
   font-size: 16px;
@@ -225,7 +219,6 @@ img {
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
-  text-align: center;
 }
 .benefit-text {
   font-size: 16px;
